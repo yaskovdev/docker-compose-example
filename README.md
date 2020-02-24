@@ -28,3 +28,5 @@ curl -v -H "Content-Type: application/json" http://localhost:8080/persons --data
 ```
 
 See the logs of Social Rating Calculator, the social rating for the user from the cURL request should be logged there.
+
+You can also connect to Redis using Redis CLI (`src/redis-cli` from Redis directory) and make sure the social rating is stored there.

@@ -1,6 +1,6 @@
 # Docker Compose Example
 
-This example illustrates how to use Docker Compose to run two Spring Boot services that communicate with each other via Kafka and store data in Redis.
+This example illustrates how to use [Docker Compose](https://docs.docker.com/compose/) to run two simple Spring Boot services ([Data Collector](https://github.com/yaskovdev/data-collector) and [Social Rating Calculator](https://github.com/yaskovdev/social-rating-calculator)) that communicate with each other via [Kafka](https://kafka.apache.org/) and store data in [Redis](https://redis.io/).
 
 ## To Run Locally
 

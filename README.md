@@ -26,7 +26,8 @@ docker-compose up
 
 Send the test request:
 ```
-curl -v -H "Content-Type: application/json" http://localhost:8080/persons --data '{"first_name": "Koshchey", "last_name": "Immortal", "age": 20000}'
+curl -v -H "Content-Type: application/json" http://localhost:8080/persons \
+    --data '{"first_name": "Koshchey", "last_name": "Immortal", "age": 20000}'
 ```
 
 See the logs of Social Rating Calculator, the social rating for the user from the cURL request should be logged there.

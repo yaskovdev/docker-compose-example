@@ -1,4 +1,4 @@
-# Social Rating Docker Compose
+# Docker Compose Example
 
 This example illustrates how to use Docker Compose to run two Spring Boot services that communicate with each other via Kafka and store data in Redis.
 

@@ -1,5 +1,7 @@
 # Social Rating Docker Compose
 
+This example illustrates how to run two Spring Boot services that communicate via Kafka and store data in Redis using Docker Compose.
+
 ## To Run Locally
 
 Make sure that [Data Collector](https://github.com/yaskovdev/data-collector) and [Social Rating Calculator](https://github.com/yaskovdev/social-rating-calculator) are cloned into the same directory as this repository.

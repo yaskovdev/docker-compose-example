@@ -6,15 +6,25 @@ This example illustrates how to use [Docker Compose](https://docs.docker.com/com
 
 Make sure that [Data Collector](https://github.com/yaskovdev/data-collector) and [Social Rating Calculator](https://github.com/yaskovdev/social-rating-calculator) are cloned into the same directory as this repository.
 
-Build Data Collector and Social Rating Calculator:
-
+Create a working directory and clone Docker Compose Example:
 ```
-mvn -f ../data-collector clean package -D maven.test.skip
-mvn -f ../social-rating-calculator clean package -D maven.test.skip
+mkdir sandbox
+cd sandbox
+git clone https://github.com/yaskovdev/docker-compose-example.git
+```
+
+Clone and build Data Collector and Social Rating Calculator:
+```
+git clone https://github.com/yaskovdev/data-collector.git
+mvn -f data-collector clean package -D maven.test.skip
+
+git clone https://github.com/yaskovdev/social-rating-calculator.git
+mvn -f social-rating-calculator clean package -D maven.test.skip
 ```
 
 Build and pull all the required images and start the containers:
 ```
+cd docker-compose-example
 docker-compose up
 ```
 

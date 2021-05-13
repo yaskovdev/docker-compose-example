@@ -4,8 +4,6 @@ This example illustrates how to use [Docker Compose](https://docs.docker.com/com
 
 ## To Run Locally
 
-Make sure that [Data Collector](https://github.com/yaskovdev/data-collector) and [Social Rating Calculator](https://github.com/yaskovdev/social-rating-calculator) are cloned into the same directory as this repository.
-
 Create a working directory and clone Docker Compose Example:
 ```
 mkdir sandbox

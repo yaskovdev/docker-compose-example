@@ -23,7 +23,7 @@ mvn -f social-rating-calculator clean package -D maven.test.skip
 Build and pull all the required images and start the containers:
 ```
 cd docker-compose-example
-docker-compose up
+docker-compose up --build
 ```
 
 Send the test request:

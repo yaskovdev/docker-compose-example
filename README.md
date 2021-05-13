@@ -13,13 +13,7 @@ mvn -f ../data-collector clean package -D maven.test.skip
 mvn -f ../social-rating-calculator clean package -D maven.test.skip
 ```
 
-Build the services:
-
-```
-docker-compose build
-```
-
-Run the services:
+Build and pull all the required images and start the containers:
 ```
 docker-compose up
 ```
